@@ -1,0 +1,19 @@
+{
+  "name": "xbits-expo-native-cli",
+  "version": "1.0.0",
+  "main": "generators/component.js",
+  "bin": {
+    "x-component": "generators/component.js"
+  },
+  "author": "Igor de Castro Abrahão",
+  "license": "ISC",
+  "description": "A lib to help create consistent file system",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^11.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "type": "module"
+}
